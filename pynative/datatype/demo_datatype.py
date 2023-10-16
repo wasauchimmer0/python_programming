@@ -1,5 +1,9 @@
-a = 1_2_3
+def foo():
+    a = 10
+    def bar():
+        return a
+    return bar()
 
-b = 3
-
-c = print(a*b)
+#c = foo.func_core
+print("wait")
+print(foo.__code__.co_cellvars)
