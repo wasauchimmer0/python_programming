@@ -4,3 +4,5 @@ def foo():
         return a
     return bar()
 
+aÖDKSFJÖ
+
